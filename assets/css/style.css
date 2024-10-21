@@ -80,9 +80,7 @@ img {
 }
 
 /* Block dividers */
-.blockquote{
-    background-color: #d6ebdb;
-}
+
 .block-divider {
     width: 75px;
     height: 5px;
@@ -126,6 +124,11 @@ img {
 }
 
 /* Buttons */
+#dropdownMenuButton{
+    border: none;
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+}
 
 .btn--cta {
     font-weight: bold;
