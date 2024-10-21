@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(225, 240, 205);
 }
 
 /* Containers */
 
-
+.lead {
+    font-size: large;
+    font-style: italic;
+    color: #f5450a;
+}
 .inline-block {
     display: inline-block;
 }
@@ -39,15 +44,18 @@ body {
     background-color: #fafafa;
 }
 /**Card **/
+.card {
+    height: 100%;
+}
 .card img {
     height: 250px;
     object-fit: cover;
     
 }
 .card-img, .card-img-top {
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
+    
 }
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -58,6 +66,7 @@ img {
     min-height: 1px;
     padding: 1.25rem;
     text-align: justify;
+    background-color: rgb(225, 240, 205);
     
 }
 /* Block dividers */
@@ -119,42 +128,61 @@ img {
     background-color: #f05f40;
     border-color: #f05f40;
 }
-.btn-primary {
+
+.btn-light{
     background-color:#f05f40;
     border-radius: 2px;
-    border-color: #f05f40;
+    justify-items: center;
+    color: #01031480;
 }
 .btn--red:hover,
 .btn--red:active,
+.btn-light:hover,
 .btn--red:focus,
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
 }
+/******************************************NavBar**/
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color:#ffff;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252;
+    background-color: #96bb78;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
 }
 
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
 
-.cv-pdf i:hover {
-    color: #e84610;
-}
+
 
 .social-links {
     padding-bottom: 15px;
@@ -169,7 +197,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #043110;
-    background: #c1e1b380;
+    background: #22500f80;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
