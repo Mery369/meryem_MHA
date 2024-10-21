@@ -33,10 +33,16 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
 }
+.about-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #fafafa;
+}
 /**Card **/
 .card img {
     height: 250px;
     object-fit: cover;
+    
 }
 .card-img, .card-img-top {
     border-top-left-radius: calc(.25rem - 1px);
@@ -51,6 +57,8 @@ img {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
+    text-align: justify;
+    
 }
 /* Block dividers */
 .blockquote{
@@ -175,3 +183,5 @@ footer {
 #footer-details {
     padding: 20px;
 }
+/**Media**********************************/
+
