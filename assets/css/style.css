@@ -14,6 +14,7 @@ body {
 .inline-block {
     display: inline-block;
 }
+
 .callout-container {
     height: 100vh;
 
@@ -52,9 +53,7 @@ body {
     object-fit: cover;
     
 }
-.card-img, .card-img-top {
-    
-}
+
 
 img {
     vertical-align: middle;
@@ -69,6 +68,13 @@ img {
     background-color: rgb(225, 240, 205);
     
 }
+/**Quotes**/
+
+.quotes .page-header {
+    margin-bottom: 25px;
+
+}
+
 /* Block dividers */
 .blockquote{
     background-color: #d6ebdb;
@@ -129,11 +135,8 @@ img {
     border-color: #f05f40;
 }
 
-.btn-light{
-    background-color:#f05f40;
-    border-radius: 2px;
-    justify-items: center;
-    color: #01031480;
+.cnt-content {
+display: inline;
 }
 .btn--red:hover,
 .btn--red:active,
